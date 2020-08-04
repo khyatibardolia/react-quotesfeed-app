@@ -1,6 +1,6 @@
 import {
     SEARCH_QUOTES
-} from '../services/QuoteService';
+} from '../../services/QuoteService';
 
 const initialState = {
     filteredQuotes: null,

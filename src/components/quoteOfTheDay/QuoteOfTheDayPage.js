@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {fetchQuoteOfTheDay} from '../../services/QuoteService';
-import {addToFavoriteQuotes} from '../../actions/addToFavoriteQuotesActions';
+import {addToFavoriteQuotes} from '../../redux/actions/addToFavoriteQuotesActions';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import PropTypes from 'prop-types';

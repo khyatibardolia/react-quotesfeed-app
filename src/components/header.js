@@ -5,7 +5,7 @@ class Header extends Component{
         return(
             <div className="header">
                 <div className='brand'>
-                    <i className="fa fa-comment-o fa-lg"></i>UOTES FEED
+                    <i className="fa fa-comment-o fa-lg"/>UOTES FEED
                 </div>
             </div>
 

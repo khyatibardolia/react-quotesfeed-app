@@ -1,4 +1,4 @@
-import {searchQuotes} from "../services/QuoteService";
+import {searchQuotes} from "../../services/QuoteService";
 
 /*export const SEARCH_QUOTES = 'SEARCH_QUOTES';
 

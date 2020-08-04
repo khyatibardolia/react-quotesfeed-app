@@ -1,4 +1,4 @@
-import { fetchQuoteOfTheDay } from '../services/QuoteService';
+import { fetchQuoteOfTheDay } from '../../services/QuoteService';
 
 /*export const FETCH_QUOTE_OF_THE_DAY = 'FETCH_QUOTE_OF_THE_DAY';*/
 

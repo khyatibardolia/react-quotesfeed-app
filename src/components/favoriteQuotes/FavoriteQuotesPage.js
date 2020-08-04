@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 import {fetchFavoriteQuotes} from '../../services/QuoteService'
-import {removeFavoriteQuote} from '../../actions/deleteFavoriteQuotesAction'
+import {removeFavoriteQuote} from '../../redux/actions/deleteFavoriteQuotesAction'
 import {ToastsContainer, ToastsStore,ToastsContainerPosition} from 'react-toasts';
 
 class FavoriteQuotesPage extends Component {

@@ -1,6 +1,6 @@
 import {
     FETCH_QUOTE_OF_THE_DAY
-} from '../services/QuoteService';
+} from '../../services/QuoteService';
 
 const initialState = {
     quote: null

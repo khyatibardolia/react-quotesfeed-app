@@ -1,6 +1,6 @@
 import {
     FETCH_FAVORITE_QUOTES
-} from '../services/QuoteService';
+} from '../../services/QuoteService';
 
 const initialState = {
     favorites: null,

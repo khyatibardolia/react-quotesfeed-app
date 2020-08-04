@@ -1,4 +1,4 @@
-import {removeFavoriteQuotes} from '../services/QuoteService';
+import {removeFavoriteQuotes} from '../../services/QuoteService';
 export const REMOVE_FAVORITE_QUOTES = 'REMOVE_FAVORITE_QUOTES';
 
 export const removeFavoriteQuote = id => {

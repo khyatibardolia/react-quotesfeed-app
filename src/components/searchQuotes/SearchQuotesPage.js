@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {searchQuotes} from "../../services/QuoteService";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
-import {addToFavoriteQuotes} from "../../actions/addToFavoriteQuotesActions";
+import {addToFavoriteQuotes} from "../../redux/actions/addToFavoriteQuotesActions";
 import swal from "sweetalert";
 
 class SearchQuotesPage extends Component {
